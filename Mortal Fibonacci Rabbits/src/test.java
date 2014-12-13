@@ -29,6 +29,7 @@ public class test {
 		
 	}
 	public static void main(String[] args){
+		@SuppressWarnings("unused")
 		test myfibo = new test(80,16);
 		System.out.println(test.fibo());
 	}
